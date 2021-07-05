@@ -1,0 +1,43 @@
+{
+  "name": "holy.wtf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Holy.WTF Website",
+  "author": "sweethuman",
+  "keywords": [
+    "gatsby"
+  ],
+  "engines": {
+    "node": "16.x.x",
+    "npm": "7.x.x"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^3.6.2",
+    "gatsby-plugin-mdx": "^2.7.1",
+    "gatsby-plugin-react-helmet": "^4.7.1",
+    "gatsby-plugin-sitemap": "^4.3.1",
+    "gatsby-source-filesystem": "^3.7.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-react-app": "^6.0.0",
+    "gatsby-plugin-postcss": "^4.7.1",
+    "postcss": "^8.3.4",
+    "prettier": "^2.3.1",
+    "tailwindcss": "^2.1.4"
+  }
+}
