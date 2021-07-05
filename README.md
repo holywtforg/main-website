@@ -1,1 +1,1 @@
-The source code for the gheo.me website.
+The source code for the holy.wtf website.
