@@ -10,6 +10,7 @@
       "es2015",
       "es2017"
     ],
+    "checkJs": false,
     "allowJs": true,
     "jsx": "preserve",
     "strict": true,
