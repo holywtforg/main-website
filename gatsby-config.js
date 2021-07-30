@@ -1,13 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "gheo.me",
-    siteUrl: "https://gheo.me",
+    title: "HOLY.WTF",
+    siteUrl: "https://holy.wtf",
+    titleTemplate: "%s - holy.wtf",
+    description: "Holy.WTF is a team initiative building open software by any means necessary",
+    image: "/images/cover.png",
+    twitterUsername: "@holy.wtf",
   },
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-    "gatsby-plugin-mdx",
     {
       resolve: "gatsby-source-filesystem",
       options: {
