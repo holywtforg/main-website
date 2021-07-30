@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "gheo.me",
-    siteUrl: "https://gheo.me",
+    title: "HOLY.WTF",
+    siteUrl: "https://holy.wtf",
   },
   plugins: [
     "gatsby-plugin-postcss",
