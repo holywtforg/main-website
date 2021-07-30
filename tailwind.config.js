@@ -15,6 +15,12 @@ module.exports = {
         body: ["Allan", "sans-serif"],
         serif: ["Montserrat", "sans-serif"],
       },
+      minHeight: {
+        content: "min-content",
+      },
+      minWidth: {
+        content: "min-content",
+      },
     },
   },
   variants: {

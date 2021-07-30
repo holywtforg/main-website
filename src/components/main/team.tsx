@@ -7,7 +7,7 @@ import mountains from "../../images/mountains.svg";
 
 const Team: React.FC = () => {
   return (
-    <Panel title="Team">
+    <Panel title="Team" arrow="loop">
       <>
         <img src={mountains} alt="Fundamentals" className="absolute" style={{ bottom: "-15%", right: "-10%" }} />
         <Teammate name="Rares Popa" role="Founder & Mobile Developer" image={rares} url="https://github.com/Iomava" />
