@@ -9,7 +9,7 @@ type Props = {
 
 const Teammate: React.FC<Props> = ({ name, role, image, url }) => {
   return (
-    <div className="flex justify-start items-center font-serif text-3xl">
+    <div className="flex justify-start items-center font-serif text-xl md:text-2xl lg:text-3xl">
       <div
         className="h-28 w-28 rounded-full bg-cover bg-center bg-origin-border bg-clip-border m-4"
         style={{ backgroundImage: `url(${image})` }}

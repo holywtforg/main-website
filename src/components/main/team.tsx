@@ -9,7 +9,12 @@ const Team: React.FC = () => {
   return (
     <Panel title="Team" arrow="loop">
       <>
-        <img src={mountains} alt="Fundamentals" className="absolute" style={{ bottom: "-15%", right: "-10%" }} />
+        <img
+          src={mountains}
+          alt="Fundamentals"
+          className="absolute"
+          style={{ bottom: "-15%", right: "-10%", zIndex: 2 }}
+        />
         <Teammate name="Rares Popa" role="Founder & Mobile Developer" image={rares} url="https://github.com/Iomava" />
         <Teammate
           name="Gheorghe Avram"
