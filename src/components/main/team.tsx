@@ -22,7 +22,7 @@ const Team: React.FC = () => {
           name="Rares Popa"
           role="Founder & Mobile Developer"
           image={raresImage!}
-          url="https://github.com/Iomava"
+          url="https://www.zetta360.com/"
         />
         <Teammate
           name="Gheorghe Avram"
