@@ -9,7 +9,7 @@ const Motto: React.FC = () => {
       <>
         <img src={telescope} alt="Telescope" className="absolute" style={{ top: "-10%", right: "-20%" }} />
         <img src={astronaut} alt="Telescope" className="absolute" style={{ bottom: "-15%", left: "-10%" }} />
-        <div className="font-body text-8xl">
+        <div className="font-body text-6xl md:text-7xl lg:text-8xl">
           <h1 className="text-center">Building open software</h1>
           <h1 className="text-center">by any means</h1>
           <h1 className="text-center">necessary.</h1>
